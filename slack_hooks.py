@@ -64,7 +64,7 @@ def get_ether_block_stats():
     """ Check block height daily """
     msg_data = msg_data_template.copy()
     msg_attachments = msg_data[ATTACHMENTS][0]
-    msg_attachments[PRE_TEXT]= 'Real-time values of the Ethereum blockchain.'
+    msg_attachments[PRE_TEXT] = 'Real-time values of the Ethereum blockchain.'
     msg_attachments[TITLE] = 'Ethereum Network Stats'
     msg_attachments[TITLE_LINK] = 'https://etherchain.org/'
 
